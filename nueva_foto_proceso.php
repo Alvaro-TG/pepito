@@ -10,6 +10,7 @@
 	move_uploaded_file($_FILES['archivo']['tmp_name'], "imgs/".$ultimo_id.".jpg");
 	
 	header('Location: nueva_foto.php');
+	
 
 ?>
 
